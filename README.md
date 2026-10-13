@@ -73,7 +73,7 @@ SMART_BI_AVICULTURE_FRANCE/
 └── README.md
 
 
-Pipeline Python
+## Pipeline Python
 Le traitement est organisé en 10 scripts Python.
 01 — Extraction des abattages
 Extraction des volumes mensuels d’abattage depuis le fichier Excel Agreste.
