@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# SQLite - base générée automatiquement
+04_SQL/*.db
+04_SQL/SAUVEGARDES/
+
+# Fichiers temporaires
+*.tmp
+~$*
+
+# Power BI fichiers temporaires
+*.pbit.tmp
