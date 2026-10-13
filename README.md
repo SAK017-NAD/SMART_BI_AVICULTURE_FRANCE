@@ -71,7 +71,7 @@ SMART_BI_AVICULTURE_FRANCE/
 │
 ├── .gitignore
 └── README.md
-
+---
 
 ## Pipeline Python
 Le traitement est organisé en 10 scripts Python.
