@@ -5,7 +5,7 @@ Projet Data / Business Intelligence end-to-end réalisé à partir de données p
 L’objectif est de construire une chaîne complète de traitement de la donnée, depuis l’extraction des données sources jusqu’à leur restitution dans des dashboards Power BI.
 
 > Ce projet personnel utilise uniquement des données publiques Agreste.
-> Il n’utilise aucune donnée interne de LDC et n’est pas affilié au Groupe LDC.
+
 
 ---
 
@@ -42,7 +42,7 @@ Périodes principalement analysées :
 ## Architecture du projet
 
 ```text
-PROJET_BI_LDC/
+SMART_BI_AVICULTURE_FRANCE/
 │
 ├── 01_DONNEES_BRUTES/
 │   ├── fichier Excel Agreste
