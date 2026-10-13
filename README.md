@@ -38,7 +38,7 @@ Périodes principalement analysées :
 - janvier à juillet 2026 selon les indicateurs.
 
 ---
-````markdown
+
 ## Architecture du projet
 
 ```text
