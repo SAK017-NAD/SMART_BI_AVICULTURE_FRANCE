@@ -2,7 +2,10 @@
 
 Projet Data / Business Intelligence end-to-end réalisé à partir de données publiques Agreste sur la filière avicole française.
 
-L’objectif est de construire une chaîne complète de traitement de la donnée, depuis l’extraction des données sources jusqu’à leur restitution dans des dashboards Power BI.
+L’objectif de ce projet est de construire une solution Business Intelligence complète permettant de transformer des données publiques Agreste sur la filière avicole française en informations fiables, structurées et facilement exploitables pour l’analyse et la prise de décision.
+
+Le projet couvre l’ensemble de la chaîne de traitement de la donnée, depuis les fichiers sources jusqu’à la restitution finale dans Power BI.
+
 
 > Ce projet personnel utilise uniquement des données publiques Agreste.  
 
@@ -12,13 +15,27 @@ L’objectif est de construire une chaîne complète de traitement de la donnée
 
 Le projet vise à :
 
-- automatiser l’extraction de données issues de fichiers Excel Agreste ;
-- contrôler la qualité et la cohérence des données ;
-- valider les résultats à partir de la publication officielle PDF ;
-- structurer les données dans une base SQLite ;
-- préparer les données pour Power BI ;
-- créer des indicateurs DAX ;
-- construire des dashboards permettant d’analyser la production, la consommation et les prix de la filière avicole.
+- extraire automatiquement les données issues des fichiers Excel Agreste ;
+- fiabiliser les données grâce à des contrôles de qualité portant notamment sur les valeurs manquantes, les doublons, la cohérence des dates et les volumes ;
+- comparer les résultats calculés avec les chiffres publiés dans les rapports officiels Agreste afin de valider la cohérence des données ;
+- structurer les données dans une base SQLite selon une logique de dimensions et de tables de faits ;
+- automatiser le pipeline de traitement avec Python afin de rendre le processus reproductible ;
+- préparer et consolider les données dans Power Query pour répondre aux différents besoins d’analyse ;
+- créer des indicateurs DAX permettant de suivre les volumes d’abattage, la consommation, les prix et leurs évolutions ;
+- construire des dashboards Power BI interactifs permettant d’analyser les tendances globales de la filière ainsi que les différences entre espèces de volailles.
+
+
+La solution permet notamment de répondre à plusieurs questions métier :
+
+- Comment évoluent les volumes d’abattage entre 2025 et 2026 ?
+- Quelles espèces représentent les volumes les plus importants ?
+- Quelles espèces connaissent les plus fortes hausses ou baisses ?
+- Comment évolue la consommation de viande de volailles ?
+- Comment évoluent les prix à la production ?
+- Quels sont les principaux écarts entre les périodes observées ?
+
+L’objectif final est donc de démontrer une démarche Data / BI de bout en bout : collecte, contrôle, transformation, modélisation, automatisation, analyse et restitution des données dans un outil décisionnel.
+
 
 ---
 
