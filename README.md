@@ -5,7 +5,10 @@ Projet Data / Business Intelligence end-to-end réalisé à partir de données p
 L’objectif est de construire une chaîne complète de traitement de la donnée, depuis l’extraction des données sources jusqu’à leur restitution dans des dashboards Power BI.
 
 > Ce projet personnel utilise uniquement des données publiques Agreste.
+<<<<<<< HEAD
 
+=======
+>>>>>>> dffb1bb (Fix README)
 
 ---
 
@@ -74,7 +77,13 @@ SMART_BI_AVICULTURE_FRANCE/
 
 ```text
 
+<<<<<<< HEAD
 ## Pipeline Python
+=======
+```text
+
+Pipeline Python
+>>>>>>> dffb1bb (Fix README)
 Le traitement est organisé en 10 scripts Python.
 01 — Extraction des abattages
 Extraction des volumes mensuels d’abattage depuis le fichier Excel Agreste.
