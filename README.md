@@ -317,6 +317,22 @@ Ce projet illustre une démarche Data / BI complète :
 
 ---
 
+## Aperçu du dashboard Power BI
+
+### Page 1 — Vue d’ensemble
+
+![Vue d'ensemble](05_POWER_BI/SCREENSHOTS/01_vue_ensemble.png)
+
+### Page 2 — Analyse des abattages par espèce
+
+![Analyse par espèce](05_POWER_BI/SCREENSHOTS/02_analyse_especes.png)
+
+### Page 3 — Analyse marché & tendances
+
+![Marché et tendances](05_POWER_BI/SCREENSHOTS/03_marche_tendances.png)
+
+
+
 ## Auteur
 
 **Nadiath SAKA**
