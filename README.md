@@ -51,7 +51,6 @@ DAX — Calcul des KPI
 Power BI — Dashboards & analyse métier
 ---
 
-## Sources de données
 
 ## Source des données
 
