@@ -36,22 +36,35 @@ La solution permet notamment de répondre à plusieurs questions métier :
 
 L’objectif final est donc de démontrer une démarche Data / BI de bout en bout : collecte, contrôle, transformation, modélisation, automatisation, analyse et restitution des données dans un outil décisionnel.
 
+## Vue d'ensemble du pipeline
 
+Agreste (Excel + PDF)  
+↓  
+Python — Extraction & contrôles Data Quality  
+↓  
+SQLite — Structuration et stockage  
+↓  
+Power Query — Préparation des données  
+↓  
+DAX — Calcul des KPI  
+↓  
+Power BI — Dashboards & analyse métier
 ---
 
 ## Sources de données
 
-Les données utilisées proviennent des publications officielles Agreste relatives à l’aviculture française.
+## Source des données
 
-Deux sources principales sont utilisées :
+Les données utilisées sont issues des publications publiques Agreste du
+Ministère de l'Agriculture, de l'Agro-alimentaire et de la Souveraineté alimentaire.
 
-- fichier Excel détaillé contenant les données mensuelles ;
-- publication PDF Agreste utilisée comme référentiel de validation.
+Publication principale utilisée :
 
-Périodes principalement analysées :
+**Aviculture — Septembre 2026 — n°106**
 
-- 2025 ;
-- janvier à juillet 2026 selon les indicateurs.
+Les données sont utilisées uniquement dans le cadre d'un projet personnel
+de démonstration Data / Business Intelligence.
+
 
 ---
 
@@ -284,6 +297,27 @@ Analyse croisée :
 | Évolution annuelle des prix | +2,2 % |
 
 ---
+## Exécution du projet
+
+### 1. Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Lancer le pipeline complet
+
+```bash
+python 02_SCRIPTS_PYTHON/10_pipeline_complet.py
+```
+
+Le pipeline exécute automatiquement :
+
+- l’extraction des données ;
+- les contrôles qualité ;
+- la validation des résultats ;
+- la création et l’alimentation de la base SQLite ;
+- la génération des fichiers destinés à Power BI.
 
 ## Technologies utilisées
 
